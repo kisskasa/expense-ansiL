@@ -40,7 +40,7 @@
       msg: "Output: {{ mysql_connection_output }}"
 
   - name: setup root password
-    ansible.built.command: mysql_secure_installation --set-root-pass {{ mysql_root_password }}
+    ansible.built.command: "mysql_secure_installation --set-root-pass {{ mysql_root_password }}"
     when:
 
 
