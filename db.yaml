@@ -1,5 +1,5 @@
 - name: configure DB server
-  hosts: db
+  hosts: all
   become: yes
   vars:
     login_host: db.chandrakasa.online
