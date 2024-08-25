@@ -5,7 +5,7 @@
     login_host: db.chandrakasa.online
   tasks:
   - name: Install MySQL Server
-    ansible.builtin.dng:
+    ansible.builtin.dnf:
       name: mysql-server
       state: latest
 
